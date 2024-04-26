@@ -7,9 +7,9 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="jastinmtewa@yahoo.com"
-global.location="Morogoro,Tanzania."
-global.mongodb= process.env.MONGODB_URI || ""
+global.email ="alaminbinali50@gmail.com"
+global.location="Nigeria,Katsina state."
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://itzlegendboy66:<bEBk70DlYkeTRvJF>@cluster0.sjzkgdq.mongodb.net/"
 
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
@@ -17,7 +17,7 @@ global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Dodoma";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/lagos";
 global.github=process.env.GITHUB|| "https://github.com/kingjux/Venocyber-md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o" ; 
@@ -27,7 +27,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "255698101622";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348163717090";
 
 
 
@@ -71,12 +71,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.0.0",
-  caption : process.env.CAPTION || "©²⁰²⁴ ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ" , // ```『 ²⁴ ᴠᴇɴᴏᴄʏʙᴇʀ-ᴍᴅ 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@JASTINMTEWA-vn9pl"),
+  caption : process.env.CAPTION || "©²⁰²⁴ ┈━═☆ 𝕭𝖎𝖓𝖆𝖑𝖎 𝖙𝖊𝖈𝖍 𝖎𝖓𝖋𝖔 ☆═━┈" , // ```『 ²⁴ ᴠᴇɴᴏᴄʏʙᴇʀ-ᴍᴅ 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@JASTINMTEWA-vn9pl"),
  
-  author : process.env.PACK_AUTHER|| "𝛁𝚵𝚴𝚯𝐂𝐘𝚩𝚵𝚪-MD",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "𝛁𝚵𝚴𝚯𝐂𝐘𝚩𝚵𝚪 𝚳𝐃",
-  ownername:process.env.OWNER_NAME|| "It's Venocyber",
+  author : process.env.PACK_AUTHER|| "𝐈𝐭𝐳 𝐁𝐢𝐧 𝐀𝐥𝐢 ˡᵉᵍᵉⁿᵈ",
+  packname: process.env.PACK_NAME || "𝐁𝐈𝐍𝐀𝐋𝐈 𝐌𝐃",
+  botname : process.env.BOT_NAME  || "𝐁𝐈𝐍𝐀𝐋𝐈 𝐌𝐃-𝐁𝐎𝐓 𝐯𝟑",
+  ownername:process.env.OWNER_NAME|| "𝐈𝐭𝐳 𝐁𝐢𝐧 𝐀𝐥𝐢 ˡᵉᵍᵉⁿᵈ",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -92,7 +92,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "VENOCYBER",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "𝐈𝐭𝐳 𝐁𝐢𝐧 𝐀𝐥𝐢 ˡᵉᵍᵉⁿᵈ",
 
 
 
