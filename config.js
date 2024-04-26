@@ -21,13 +21,13 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/lagos";
 global.github=process.env.GITHUB|| "https://github.com/kingjux/Venocyber-md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/67facf417636d9d413155.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348163717090";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348025043630";
 
 
 
@@ -75,7 +75,7 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "𝐈𝐭𝐳 𝐁𝐢𝐧 𝐀𝐥𝐢 ˡᵉᵍᵉⁿᵈ",
   packname: process.env.PACK_NAME || "𝐁𝐈𝐍𝐀𝐋𝐈 𝐌𝐃",
-  botname : process.env.BOT_NAME  || "𝐁𝐈𝐍𝐀𝐋𝐈 𝐌𝐃-𝐁𝐎𝐓 𝐯𝟑",
+  botname : process.env.BOT_NAME  || "EBUSKID MD",
   ownername:process.env.OWNER_NAME|| "𝐈𝐭𝐳 𝐁𝐢𝐧 𝐀𝐥𝐢 ˡᵉᵍᵉⁿᵈ",
 
 
